@@ -18,3 +18,11 @@ error TS2322: Type '{ minify: false; minifyWhitespace: true; minifyIdentifiers: 
 
 Found 1 error in my-webpack-config.ts:10
 ```
+
+# with old version
+
+- change `"terser-webpack-plugin": "5.3.9",` in `package.json` to `5.2.0`
+- run `npm install`
+- run `npm run typescript`
+
+it passes
